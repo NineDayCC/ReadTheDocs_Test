@@ -1,0 +1,23 @@
+# PlatformIO
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.pio
+build/
+.old
+
+# VSCode
+.vscode
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Translations
+*.mo
