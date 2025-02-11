@@ -39,7 +39,6 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_context = {
-    'display_language_switcher': True,
     'display_github': True,
     'github_user': 'NineDayCC',
     'github_repo': 'ReadTheDocs_Test',
