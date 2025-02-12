@@ -6,8 +6,13 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-from conf_common import *
-
+try:
+    from conf_common import *
+except ImportError:
+    import os
+    import sys
+    sys.path.insert(0, os.path.abspath('..'))
+    from conf_common import *
 import datetime
 
 current_year = datetime.datetime.now().year
