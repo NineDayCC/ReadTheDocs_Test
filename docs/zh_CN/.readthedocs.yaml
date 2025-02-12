@@ -6,7 +6,7 @@ build:
     python: "3.12"
 
 sphinx:
-  configuration: docs/$LANGUAGE/conf.py
+  configuration: docs/zh_CN/conf.py
   fail_on_warning: false
 
 python:
