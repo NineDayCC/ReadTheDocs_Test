@@ -6,12 +6,8 @@ build:
     python: "3.12"
 
 sphinx:
-  configuration: docs/$READTHEDOCS_LANGUAGE/conf.py
+  configuration: docs/zh_CN/conf.py
   fail_on_warning: false
-
-# sphinx:
-#   configuration: docs/zh_CN/conf.py
-#   fail_on_warning: false
 
 python:
   install:
