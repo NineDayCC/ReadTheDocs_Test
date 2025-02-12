@@ -30,5 +30,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'zh_CN'
 
+html_context = {
+    'conf_py_path': '/docs/zh_CN/',
+}
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
