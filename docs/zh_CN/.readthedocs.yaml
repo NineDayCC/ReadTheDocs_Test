@@ -5,10 +5,10 @@ build:
   tools:
     python: "3.12"
   jobs:
-    sphinx:
-      configuration: $LANGUAGE/conf.py
-      fail_on_warning: false
 
+sphinx:
+  configuration: zh_CN/conf.py
+  fail_on_warning: false
 
 python:
   install:
