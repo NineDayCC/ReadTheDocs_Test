@@ -28,8 +28,11 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_context = {
-    'conf_py_path': '/docs/en/',
+    'display_github': True,
+    'github_user': 'NineDayCC',
+    'github_repo': 'ReadTheDocs_Test',
+    'github_version': 'main',
+    'conf_py_path': '/docs/en/'
 }
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
