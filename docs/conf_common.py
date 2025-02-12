@@ -6,6 +6,13 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import datetime
+
+current_year = datetime.datetime.now().year
+
+# General information about the project.
+project = 'HeadTracker_ESP32'
+copyright = u'2025 - {} NineDayCC'.format(current_year)
 author = 'NineDayCC'
 release = 'v0.1.1'
 

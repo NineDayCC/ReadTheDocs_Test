@@ -13,13 +13,6 @@ except ImportError:
     import sys
     sys.path.insert(0, os.path.abspath('..'))
     from conf_common import *
-import datetime
-
-current_year = datetime.datetime.now().year
-
-# General information about the project.
-project = 'HeadTracker_ESP32'
-copyright = u'2025 - {} NineDayCC'.format(current_year)
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
