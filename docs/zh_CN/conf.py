@@ -6,15 +6,18 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+from conf_common import *
+
+import datetime
+
+current_year = datetime.datetime.now().year
+
+# General information about the project.
 project = 'HeadTracker_ESP32'
-copyright = '2025, NineDayCC'
-author = 'NineDayCC'
-release = 'v0.1.1'
+copyright = u'2025 - {} NineDayCC'.format(current_year)
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -23,6 +26,3 @@ language = 'zh_CN'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'alabaster'
-html_static_path = ['_static']
