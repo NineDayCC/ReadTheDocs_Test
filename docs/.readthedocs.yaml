@@ -7,7 +7,7 @@ build:
   jobs:
   - name: build_languege
     sphinx:
-      configuration: docs/$LANGUAGE/conf.py
+      configuration: docs/$READTHEDOCS_LANGUAGE/conf.py
       fail_on_warning: false
 
 # sphinx:
