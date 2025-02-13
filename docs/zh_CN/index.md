@@ -10,7 +10,7 @@
 :hidden:
 overview.md
 get-started.md
-user-manual/index.md
+user-guides/index.md
 hw-guides/index.md
 troubleshooting.md
 ```
