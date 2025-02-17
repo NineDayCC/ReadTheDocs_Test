@@ -9,9 +9,7 @@ Documentation is still being improved, please stay tuned.
 
 ```{toctree}
 :hidden:
-overview.md
-get-started.md
-user-guides/index.md
+getting-started/index.md
 hw-guides/index.md
-troubleshooting.md
+support/index.md
 ```

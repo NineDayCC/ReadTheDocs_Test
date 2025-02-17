@@ -1,4 +1,4 @@
-# 硬件指南
+# 支持
 ## 子标题1
 ### 子标题1
 ## 子标题3
@@ -6,6 +6,8 @@
 
 ```{toctree}
 :hidden:
-PCBA.md
-schematic.md
+contact.md
+download.md
+issues.md
+FAQ.md
 ```
