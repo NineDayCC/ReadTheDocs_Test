@@ -18,3 +18,7 @@ html_context = {
     'github_version': 'main',
     'conf_py_path': '/docs/zh_CN/'
 }
+
+html_theme_options = {
+    "path_to_docs": "/docs/zh_CN",
+}
