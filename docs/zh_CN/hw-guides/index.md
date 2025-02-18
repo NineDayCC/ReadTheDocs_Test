@@ -6,6 +6,6 @@
 
 ```{toctree}
 :hidden:
-PCBA.md
 schematic.md
+PCBA.md
 ```

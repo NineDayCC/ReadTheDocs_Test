@@ -48,7 +48,16 @@
 
 ```{toctree}
 :hidden:
-getting-started/index.md
-hw-guides/index.md
-support/index.md
+getting-started/index
+hw-guides/index
+```
+
+```{toctree}
+:hidden:
+:caption: 支持
+:maxdepth: 1
+
+support/FAQ
+support/download
+support/contact
 ```
