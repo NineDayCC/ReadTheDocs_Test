@@ -13,13 +13,19 @@ extensions = [
     'sphinx_copybutton'
 ]
 
+myst_enable_extensions = [
+    "colon_fence",
+    "html_admonition",
+    "attrs_inline",
+]
+
 languages = {
     'zh_CN': '中文',
     'en': 'English'
 }
 
 html_theme = 'sphinx_book_theme'
-html_static_path = ['_static']
+html_static_path = ['../_static']
 
 html_theme_options = {
     "repository_url": "https://github.com/NineDayCC/HeadTracker_ESP32",
