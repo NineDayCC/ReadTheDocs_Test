@@ -11,14 +11,4 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'zh_CN'
 
-html_context = {
-    'display_github': True,
-    'github_user': 'NineDayCC',
-    'github_repo': 'ReadTheDocs_Test',
-    'github_version': 'main',
-    'conf_py_path': '/docs/zh_CN/'
-}
-
-html_theme_options = {
-    "path_to_docs": "/docs/zh_CN",
-}
+html_theme_options['path_to_docs'] = "docs/zh_CN"

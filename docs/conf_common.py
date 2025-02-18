@@ -9,7 +9,8 @@ author = 'NineDayCC'
 release = 'v0.1.1'
 
 extensions = [
-    'myst_parser'  # 启用 Markdown 支持
+    'myst_parser',
+    'sphinx_copybutton'
 ]
 
 languages = {

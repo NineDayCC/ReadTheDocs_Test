@@ -9,14 +9,6 @@ except ImportError:
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-html_context = {
-    'display_github': True,
-    'github_user': 'NineDayCC',
-    'github_repo': 'ReadTheDocs_Test',
-    'github_version': 'main',
-    'conf_py_path': '/docs/en/'
-}
+language = 'en'
 
-html_theme_options = {
-    "path_to_docs": "/docs/zh_CN",
-}
+html_theme_options['path_to_docs'] = "docs/en"
