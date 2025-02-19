@@ -1,5 +1,6 @@
 # HeadTracker_ESP32 文档
 
+(welcome)=
 ## 欢迎使用本项目文档
 
 感谢您对 HeadTracker_ESP32 项目的关注！本文档旨在帮助您快速掌握如何使用由 HeadTracker_ESP32 项目支持的头追，以及如何自制相应的硬件。
@@ -8,6 +9,7 @@
 文档还在持续完善，欢迎[催更](support/contact)🕊️ 。
 :::
 
+(intention)=
 ## 项目初衷
 
 **你是否体验过这样的飞行时刻？**  
@@ -25,12 +27,14 @@
 本项目旨在使用较低的成本，实现一些较新的功能，如无线连接功能。同时硬件和结构上追求即插即用，尽力摆脱各种接线和安装困扰，**提升头追的使用体验**，**降低头追的使用门槛**。
 :::
 
+(features)=
 ## 功能特点
 
 :::{note}
 目前仅有 Nano 版硬件，后续将会持续优化。也欢迎有兴趣的朋友一起交流开发！
 :::
 
+(nano-board)=
 ### Nano版
 ![Nano Tx]( ../_static/HT_Nano_front.jpg){.bg-warning w=300px align=center}  
 

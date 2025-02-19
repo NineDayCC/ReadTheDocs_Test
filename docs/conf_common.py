@@ -10,13 +10,25 @@ release = 'v0.1.1'
 
 extensions = [
     'myst_parser',
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    'sphinx_togglebutton',
 ]
 
 myst_enable_extensions = [
-    "colon_fence",
-    "html_admonition",
+    "amsmath",
     "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    # "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
 ]
 
 languages = {
@@ -34,4 +46,5 @@ html_theme_options = {
     "use_edit_page_button": True,
     "use_issues_button": True,
     "show_navbar_depth": 2,
+    "show_toc_level": 3,
 }
