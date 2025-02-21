@@ -50,5 +50,5 @@ html_theme_options = {
     "use_edit_page_button": True,
     "use_issues_button": True,
     "show_navbar_depth": 2,
-    "show_toc_level": 3,
+    "show_toc_level": 2,
 }
