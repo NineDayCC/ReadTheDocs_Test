@@ -10,6 +10,7 @@ release = 'v0.1.1'
 
 extensions = [
     'myst_parser',
+    "sphinx_design",
     'sphinx_copybutton',
     'sphinx_togglebutton',
 ]
@@ -37,9 +38,12 @@ languages = {
 }
 
 html_theme = 'sphinx_book_theme'
+html_last_updated_fmt = ""
+html_title = "HeadTracker_ESP32"
 html_static_path = ['../_static']
 
 html_theme_options = {
+    "home_page_in_toc": True,
     "repository_url": "https://github.com/NineDayCC/HeadTracker_ESP32",
     "use_source_button": True,
     "repository_branch": "master",
