@@ -13,6 +13,7 @@ extensions = [
     "sphinx_design",
     'sphinx_copybutton',
     'sphinx_togglebutton',
+    "sphinx_tippy",
 ]
 
 myst_enable_extensions = [
@@ -52,3 +53,9 @@ html_theme_options = {
     "show_navbar_depth": 2,
     "show_toc_level": 2,
 }
+
+tippy_skip_anchor_classes = ("headerlink", "sd-stretched-link", "sd-rounded-pill")
+tippy_anchor_parent_selector = "article.bd-article"
+tippy_rtd_urls = [
+    "https://www.sphinx-doc.org/en/master",
+]
