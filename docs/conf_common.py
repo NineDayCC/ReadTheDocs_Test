@@ -42,6 +42,7 @@ html_theme = 'sphinx_book_theme'
 html_last_updated_fmt = ""
 html_title = "HeadTracker_ESP32"
 html_static_path = ['../_static']
+html_css_files = ["local.css"]
 
 html_theme_options = {
     "home_page_in_toc": True,

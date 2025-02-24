@@ -15,6 +15,10 @@ sd_hide_title: true
 文档还在持续完善，欢迎[催更](support/contact.md)🕊️ 。
 :::
 
+:::{attention}
+本项目还处在测试阶段，会有许多不确定的问题发生，使用时请注意安全！
+:::
+
 <!-- (intention)=
 ## 项目初衷
 
